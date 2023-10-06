@@ -1,0 +1,76 @@
+:root{
+    --main-color:#00ffb6;
+    --light-green:#00dabd;
+    --green:#00b4b6;
+    --dark-green:#008ea2;
+    --blue:#196a81;
+    --dark-blue:#2f4858;
+    --black:#000000;
+    --white:#ffffff;
+}
+
+*{
+    font-family: noto-sans-malayalam, sans-serif;
+    font-style: normal;
+}
+
+*::selection{
+    background-color: var(--main-color);
+    color:#fff;
+}
+body{
+    /* background-image: linear-gradient(var(--black), #2f2f2f); */
+    background-color: var(--black);
+    margin: 0;
+    font-size: 14px;
+    width: 100%;
+}
+ html{
+    width: 100%;
+    top:0; left:0; right: 0;
+ }
+.head{
+    background-color: var(--black);
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+.nav-menu .logo{
+    margin-top: -25px;
+    margin-bottom: -25px;
+    height: 20%;
+    width: 20%;
+    padding-left: 46px;
+    padding-right: 110px;
+}
+
+.nav-menu ul{display: flex;}
+
+.nav-menu ul li{list-style-type: none;}
+
+.nav-menu ul li .link{
+    text-decoration: none;
+    font-weight: 550;
+    color: var(--white);
+    margin: 0 25px;
+    font-size: 20px;
+}
+
+.nav-menu .contact{
+    color: var(--black);
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 20px;
+    border-radius: 15px ;
+    background-image: linear-gradient(var(--main-color),var(--green));
+    padding: 15px 40px;
+    margin-left: 200;
+}
+
+.contact{
+    background-image: url(images/standard-quality-control-collage-concept.jpg);
+}
